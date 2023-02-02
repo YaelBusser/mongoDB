@@ -1,0 +1,17 @@
+[{
+  "_id": 6,
+  "nom": "Huppert",
+  "prenom": "Nicolas",
+  "domaines": [
+    "SGBD",
+    "NoSQL"
+  ],
+  "emplois": {
+    "qualité": "développeur web",
+    "date": "01/09/2007"
+  },
+  "Habite": {
+    "adresse": "222 avenue des Villas",
+    "ville": "Rouen"
+  }
+}]

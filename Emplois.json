@@ -1,0 +1,86 @@
+[{
+  "_id": 1,
+  "qualite": "développeur web",
+  "niveau_etude": 2,
+  "employes": [
+    {
+      "nom": "Arbat",
+      "prenom": "Joseph",
+      "date": "01/09/2016"
+    },
+    {
+      "nom": "German",
+      "prenom": "Marie",
+      "date": "01/10/2020"
+    },
+    {
+      "nom": "Vercor",
+      "prenom": "Célestin",
+      "date": "20/04/2018"
+    }
+  ],
+  "nom": "Courquin",
+  "prenom": "Maxence"
+},{
+  "_id": 2,
+  "qualite": "développeur full stack",
+  "niveau_etude": 3,
+  "employes": [
+    {
+      "nom": "Garbon",
+      "prenom": "Vincent",
+      "date": "01/10/2016"
+    },
+    {
+      "nom": "Vesoul",
+      "prenom": "Amandine",
+      "date": "15/03/2020"
+    }
+  ],
+  "nom": "Gastineau",
+  "prenom": "Timéo"
+},{
+  "_id": 3,
+  "qualite": "développeur devOps",
+  "niveau_etude": 3,
+  "employes": [
+    {
+      "nom": "Gerrain",
+      "prenom": "Marie-Christine",
+      "date": "01/10/2005"
+    },
+    {
+      "nom": "Leval",
+      "prenom": "Ronan",
+      "date": "01/02/2021"
+    }
+  ],
+  "nom": "Chabeauti",
+  "prenom": "Antoine"
+},{
+  "_id": 4,
+  "qualite": "administrateur réseau",
+  "niveau_etude": 2,
+  "employes": [
+    {
+      "nom": "Fayraud",
+      "prenom": "Raymond",
+      "date": "01/11/2010"
+    }
+  ],
+  "nom": "Guillon",
+  "prenom": "Antoine"
+},{
+  "_id": 5,
+  "qualite": "chef de projet",
+  "niveau_etude": 5,
+  "employes": [
+    {
+      "nom": "Tamarnier",
+      "prenom": "Aristide",
+      "date": "01/02/2018"
+    }
+  ],
+  "nom": "Busser",
+  "prenom": "Yaël"
+}
