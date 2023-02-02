@@ -1,0 +1,107 @@
+{
+	"_id": 1,
+  	"titre": "HTML5 et CSS3",
+  	"difficulte": 1,
+	"questions":[
+  		{
+			"question": "Comment définir le contenu d'une liste déroulante ?",
+  			"réponces": [
+    				"<value='valeur1'",
+    				"<select value='valeur1'",
+    				"<option value='valeur1'>",
+    				"<element='valeur1'"
+  			],
+			"vérité": "<option value='valeur1'>"
+		},
+		{
+			"question": "Si z-index vaut 1 pour le bloc A et 4 pour le bloc B, A et B sont superposés, alors",
+  			"réponces": [
+    				"l'ordre de tabulation est A puis B",
+    				"l'ordre de tabulation est B puis A",
+    				"B apparait intégralement",
+    				"A apparait intégralement"
+  			],
+			"vérité": "B apparait intégralement"
+		},
+		{
+			"question": "Comment appliquer une règle de style a tous les paragraphes sauf ceux de la classe 'classe1' ?",
+  			"réponces": [
+    				"p([class<>'classe1']) { ...... }",
+    				"p:not([class='classe1']) { ...... }",
+    				"p:!([class='classe1']) { ...... }",
+    				"p:false([class='classe1']) { ...... }"
+  			],
+			"vérité": "p:not([class='classe1']) { ...... }"
+		},
+		{
+			"question": "Comment annuler les marges de toutes les balises de la page ?",
+  			"réponces": [
+    				"head, body {margin: 0; }",
+    				"padding {width: 0; }",
+    				"margin {width: 0; }",
+    				"* {margin: 0 }"
+  			],
+			"vérité": "* {margin: 0 }"
+		},
+		{
+			"question": "Quelle est la syntaxe correcte pour un formulaire ?",
+  			"réponces": [
+    				"<form type='post'",
+    				"<form type='get'",
+    				"<form method='post'",
+    				"<form method='send'"
+  			],
+			"vérité": "<form method='post'"
+		},
+		{
+			"question": "Quel effet produira la balise <em> appliquée à une ligne ?",
+  			"réponces": [
+    				"sa mise en forme comme liste à puce",
+    				"la justification du texte",
+    				"sa mise en italique",
+    				"sa mise en gras"
+  			],
+			"vérité": "sa mise en italique"
+		},
+		{
+			"question": "en HTML, que fait &nbsp; ?",
+  			"réponces": [
+    				"insère un saut de page",
+    				"insère un saut de paragraphe",
+    				"produit un espace insécable",
+    				"ajoute un compteur de page automatique"
+  			],
+			"vérité": "produit un espace insécable"
+		},
+		{
+			"question": "Que fait la propriété CSS 'white-space:pre' appliquée à un paragraphe ou bloc ?",
+  			"réponces": [
+    				"conserve tous les espaces et retours à la ligne tapés dans le code HTML",
+    				"fusionne les espaces successifs",
+    				"supprime les espaces avant un retour à la ligne",
+    				"fait précéder une image d'un espace blanc"
+  			],
+			"vérité": "conserve tous les espaces et retours à la ligne tapés dans le code HTML"
+		},
+		{
+			"question": "Comment changer la couleur d'un lien en rouge quand il est survolé par la souris ?",
+  			"réponces": [
+    				"a:active {color: red}",
+    				"a:hover {color: red}",
+    				"a:link {color: red}",
+    				"a:visited {color: red}"
+  			],
+			"vérité": "a:hover {color: red}"
+		},
+		{
+			"question": "La propriété de style 'resize'",
+  			"réponces": [
+    				"permet d'adapter la taille d'un bloc à son contenu de manière automatique",
+    				"autorise le redimensionnement d'un bloc avec la souris",
+    				"permet de redimensionner un bloc automatiquement selon la largeur de la fenêtre",
+    				"permet d'adapter la taille d'un bloc à son bloc parent"
+  			],
+			"vérité": "autorise le redimensionnement d'un bloc avec la souris"
+		}
+	]
+}
